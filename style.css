@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: rgb(11, 11, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: aquamarine;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+}
+h3 {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+.form {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+.form button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(228, 15, 164);
+    color: white;
+}
+.qty {
+    width: 40%;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px 5px 10px;
+}
+.nameBox {
+    padding-bottom: 2rem;
+}
